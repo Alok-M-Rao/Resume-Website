@@ -1,0 +1,91 @@
+body{
+    
+    background-image: url('res/photography.png');
+}
+
+#hello{
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100pt;
+    color: #e8643b;
+}
+
+#intro{
+    background-color:#37272e;
+    padding-top: 50pt;
+    padding-bottom: 50pt;
+    text-align: center;
+    font-family: serif;
+    font-size: 1em;
+    color: #e8643b;
+}
+
+#nameListDiv{
+    padding: 5px;
+}
+
+#nameList{
+    background-color: black;
+
+    
+}
+#nameList img{
+    width: 300px;
+    height: 300px;
+    vertical-align: text-top;
+    padding: 5px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    padding-top: 0;
+}
+
+li{ 
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #37272e;
+    margin: 10px;
+}
+
+.aboutDesp{
+    background-color: #e8643b;
+    text-align: center;
+    border-left: thin solid #ffffff;
+    color: #37272e;
+    padding: 80px;
+
+}
+
+.aboutDesp hr{
+    width: 50%;
+     border: 1px solid #ffffff;
+}
+button{
+    color: #ffffff;
+    background-color: #1720bb;
+    transition: background-color 0.5s, color 0.5s;
+    font-size: 20px;
+   
+    
+    padding: 10px 100px 10px 100px;
+    margin-top: 50px;
+    
+      
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor:pointer;
+    overflow: hidden;
+      
+}
+button:hover {
+    background-color: #37272e;
+    
+    cursor: pointer;
+}
