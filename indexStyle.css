@@ -1,6 +1,11 @@
 body{
     
     background-image: url('res/photography.png');
+    background-attachment: fixed;
+}
+
+#head{
+    height: 100%;
 }
 
 #hello{
@@ -12,7 +17,8 @@ body{
 }
 
 #intro{
-    background-color:#37272e;
+
+    background-color: rgba(0, 0, 0, 0.75);
     padding-top: 50pt;
     padding-bottom: 50pt;
     text-align: center;
@@ -23,20 +29,19 @@ body{
 
 #nameListDiv{
     padding: 5px;
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
-#nameList{
-    background-color: black;
 
-    
-}
 #nameList img{
     width: 300px;
     height: 300px;
     vertical-align: text-top;
     padding: 5px;
     background-color: white;
+    border-radius: 50%;
 }
+
 
 ul {
     list-style-type: none;
@@ -48,23 +53,12 @@ ul {
 li{ 
     padding: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #37272e;
+    
+    border-bottom: thin solid #e8643b;
     margin: 10px;
 }
 
-.aboutDesp{
-    background-color: #e8643b;
-    text-align: center;
-    border-left: thin solid #ffffff;
-    color: #37272e;
-    padding: 80px;
 
-}
-
-.aboutDesp hr{
-    width: 50%;
-     border: 1px solid #ffffff;
-}
 button{
     color: #ffffff;
     background-color: #1720bb;
@@ -86,6 +80,40 @@ button{
 }
 button:hover {
     background-color: #37272e;
-    
     cursor: pointer;
 }
+
+#topButton:hover{
+    background-color: #e8643b;
+    cursor: pointer;
+}
+
+.topContainerInfo{
+    display: flex; 
+    //background-color: rgba(0,0,0, 0.75); 
+    background-color: #e8643b;
+    opacity: 75%;
+    padding: 10px;
+}
+.profilePic{
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aboutDesp{
+    background-color: #e8643b;
+    text-align: center;
+    border-left: thin solid #ffffff;
+    color: #37272e;
+    padding: 80px;
+    margin: 0 auto;
+
+}
+
+.aboutDesp hr{
+    width: 50%;
+     border: 1px solid #ffffff;
+}
+
