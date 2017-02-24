@@ -1,30 +1,330 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Quard</title>
-    <link href="ananthu.css" type="text/css" rel="stylesheet" />
+    <title>Resume - Ananthu Kanive</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Resume.css" rel="stylesheet">
 </head>
+
+
 <body>
-    <div id="head">
-        <div id="profilePicDiv" class="stuffInMiddle">
-            <img src="../res/an.png">
+
+    <header>
+        <h1 style="text-align: center; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 40px; font-weight: lighter;">Ananthu P Kanive</h1>
+    </header>
+
+    <hr style="width: 40%;">
+
+    <div id="Photo">
+
+         <div style="display: flex; justify-content: center; margin-bottom: 30px;">
+            <img class="pic" src="ananthu.png" style="border-radius: 50%;background-color: white;padding: 3px;">
+        </div>
+        
+       
+
+        <div id="navDiv">
+
+            <nav style="margin: 0 auto;">
+                <table class="Nav">
+                    <tr>
+
+                        <th>
+
+                            <figure>
+
+                                <a href="#About"><img src="..\res\Icons\about.png" width="80" height="7%" title="About">
+                                </a>
+                                <div class="box">
+                                    <h3 class="heading">
+                                        About
+                                    </h3>
+                                </div>
+                            </figure>
+
+                        </th>
+
+                        <th>
+
+                            <figure>
+
+                                <a href="#Education"><img src="..\res\Icons\edu.png" width="80" height="7%" title="Education"></a>
+                                <div class="box">
+                                    <h3 class="heading">
+                                        Education
+                                    </h3>
+                                </div>
+                            </figure>
+
+                        </th>
+
+                        <th>
+
+                            <figure>
+                                <a href="#Project"><img src="..\res\Icons\projects.png" width="80" height="7%" title="Projects"> </a>
+                                <div class="box">
+                                    <h3 class="heading">
+                                        Projects
+                                    </h3>
+                                </div>
+                            </figure>
+                        </th>
+
+                        <th>
+
+                            <figure>
+                                <a href="#Skill"><img src="..\res\Icons\Skills.png" width="80" height="7%" title="Skills"> </a>
+                                <div class="box">
+                                    <h3 class="heading">
+                                        Skills
+                                    </h3>
+                                </div>
+                            </figure>
+
+                        </th>
+
+                    </tr>
+                </table>
+            </nav>
         </div>
     </div>
-    <div id="about" class="stuffInMiddle">
-            <p id="name">Ananthu Kanive</p>
-    </div>
-    <hr style="width: 40%;" class="stuffInMiddle">
 
-    <div id="content">
-        <nav class="stuffInMiddle">
-            <a href="">Education</a>
-            <a href="">Education</a>
-            <a href="">Education</a>
-            <a href="">Education</a>
-        </nav>
-        <p style="justify-content">
-            asdasd
-        </p>
-    </div>
+
+
+
+    <article class="Info">
+
+        <div class="About">
+
+            <h2> <a name="About"> About </a> <hr style="border: thin solid white;"></h2>
+
+            <div class="Border">
+                <p style="text-align: justify;text-justify: inter-word;font-weight: lighter;font-size: 0.8em;">
+                    My name is Ananthu and I love computer science! As I've developed my skills, my passion the art of programming has grown. 
+                    I am currently studying at NMAMIT, where I try to develop innovative ideas in a field that is constantly evolving.
+                    I enjoy reading fantasy fiction and basketball. I have a passion for design and obsess over TV shows.
+                    I am creative, an optimist, an explorer, and a person looking for a <i>challenge!</i> 
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="Education">
+
+            <h2> <a name="Education"> Education </a> <hr style="border: thin solid white;"></h2>
+            
+
+            <div class="Border">
+
+                <table id="places">
+                    <tr>
+                        <td> B.E in CSE </td> 
+                        <td> NMAM Institute of Technology, Nitte </td>
+                        <td>(2014 – 2018) </td>
+                    </tr>
+                    <tr>
+                        <td> 2<sup>nd</sup> PUC </td> 
+                        <td> Little Rock Indian School </td>
+                        <td>(2012– 2014) </td>
+                    </tr>
+                    <tr>
+                        <td> Class X  </td> 
+                        <td> Little Rock Indian School </td>
+                        <td> </td>
+                    </tr>
+                </table>
+               
+
+                <table class="Marks" style="padding-bottom: 30px; font-size: 40px;text-align: center;">
+                    <tr>
+                        <td>9.16</td>
+
+                        <td>91%</td>
+
+                        <td>9.4</td>
+                    </tr>
+
+                    <tr>
+                        <td>B.E.</td>
+
+                        <td>PUC</td>
+
+                        <td>SSLC</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="Project">
+
+            <h2> <a name="Project"> Project </a> <hr style="border: thin solid white;"></h2>
+            <div class="Border">
+
+                <ul style="text-align: center">
+
+                    <li>
+                        <h3>A Multi-pass Assembler</h3>
+                        <hr style="width: 30%;">
+                        <p><b>Objective</b>: An implementation of the classic two pass assembler algorithm in c++. The objective was to create an efficient and functional assembler.</p>
+                        <p><b>Outcomes</b> This project reinforced the basics of an assembler</p>
+
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <h3>A Gaming portal website</h3>
+                        <hr style="width: 30%;">
+                        <p><b>Objective</b>: A website design with a core intention of providing easy access to computer games. It contains detailed descriptions of each game.</p>
+                        <p><b>Outcomes</b> : This project helped in understanding the integration of HTML/CSS and JavaScript</p>
+                    </li>
+
+                     <li>
+                        <h3>A p2p Chat application</h3>
+                        <hr style="width: 30%;">
+                        <p><b>Objective</b>: A program that enables two users to chat over a local area network. Python’s networking functions were used to implement the main features of this app.</p>
+                        <p><b>Outcomes</b>: This project helped cementing networking principles and python structures</p>
+                    </li>
+
+                            <li>
+                        <h3>A database management system for The Navy</h3>
+                        <hr style="width: 30%;">
+                        <p><b>Objective</b>: The application written in VB.net and SQL provided interactive, flexible and efficient management of databases of the Navy.</p>
+                        <p><b>Outcomes</b>: It helped implementing DBMS concepts for a real world applications. </p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="Skill">
+
+            <h2> <a name="Skill"> Skills </a><hr style="border: thin solid white;"> </h2>
+            <div class="Border" style="display: flex; align-content: center">
+                <ul style="list-style: none; margin: 0 auto;">
+                    <li>
+                        Programming Languages
+                        <ul style="font-size: 0.7em; font-weight: lighter;">
+                            <li>C / C++</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>HTML / CSS</li>
+                            <li>PHP </li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                            <li>8086 assembly</li>
+                            <li>UNIX Shell Script</li>
+                            <li>PERL</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Operating Systems
+                         <ul style="font-size: 0.7em; font-weight: lighter;">
+                            <li>GNU/Linux</li>
+                            <li>UNIX</li>
+                            <li>Windows</li>
+                      
+                        </ul>
+                    </li>
+                </ul>
+                <ul style="list-style: none;margin: 0 auto">
+                    <li> General Attributes
+                         <ul style="font-size: 0.7em; font-weight: lighter;">
+                            <li>Honest</li>
+                            <li>Hardworking</li>
+                            <li>Reliable</li>
+                            <li>Loyalt</li>
+                            <li>Persevering</li>
+                            <li>Punctual</li>
+                            <li>Caring</li>
+                            <li>Proactive</li>
+                            <li>Team Player</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Languages known
+                           <ul style="font-size: 0.7em; font-weight: lighter;">
+                            <li>English</li>
+                            <li>Hindi</li>
+                            <li>Kannada</li>
+                            <li>Malayalam</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="PDF">
+            <h2>Resume<hr style="border: thin solid white;"></h2>
+            <div  style="text-align: center">
+            <a href="ananthu.pdf" target="_blank" align="center" > <img src="pdf.png" width="10%" height="1%"></a>
+            </div>
+        </div>
+
+
+    </article>
+
+
+
+    <footer>
+        <table class="Footer1" ; align="center">
+            <tr>
+                <th id="Info" style="font-size: 20px; font-weight: lighter">
+                    Contact : +91-9008141140 | Email : ananthu.kanive6@gmail.com
+                </th>
+            </tr>
+        </table>
+        <table class="Footer2">
+
+            <tr>
+                <th>
+
+                    <a href="https://www.facebook.com/ananthu.kanive" target="_blank"><img src="..\res\Icons\fb.png" width="60" height="60" title="Facebook"> </a>
+
+                </th>
+
+                <th>
+
+                    <a href="https://in.linkedin.com/in/ananthu-kanive-18376b61" target="_blank"><img src="..\res\Icons\linked.png" width="60" height="60" title="LinkedIn"> </a>
+
+                </th>
+                <th>
+
+                    <a href="https://github.com/LonleyC"><img src="..\res\Icons\github.png" width="60" height="60" title="GitHub"> </a>
+
+                </th>
+            </tr>
+        </table>
+
+    </footer>
+
+
+
 </body>
+
 </html>
