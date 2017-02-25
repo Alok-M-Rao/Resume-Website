@@ -1,5 +1,5 @@
 body {
-    background-image: url('../ananthu/21.jpg');
+    background-image: url('../Res/bg.jpg');
     background-attachment: fixed;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -54,7 +54,7 @@ th {
     border-radius: 10px;
 }
 
-.Info  h2{
+.Info h2 {
     font-weight: lighter;
     padding-left: 20px;
     color: #e8643b;
@@ -64,15 +64,6 @@ th {
     padding: 40px;
     height: 450px;
     color: white;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('41.jpg');
-	
-    border: thin solid #e8643b;
-    
-
 }
 
 .About {
@@ -83,10 +74,9 @@ th {
 .Education {
     margin-top: 60px;
     font-size: 30px;
-    
 }
 
-.Education li{
+.Education li {
     padding: 0;
 }
 
@@ -95,7 +85,7 @@ th {
     font-size: 30px;
 }
 
-.Project ul{
+.Project ul {
     display: inline;
     list-style: none;
 }
@@ -105,7 +95,7 @@ th {
     font-size: 30px;
 }
 
-.Skill ul{
+.Skill ul {
     padding: 20px;
     border-bottom: solid thin white;
     margin-bottom: 20px;
@@ -128,7 +118,6 @@ figure:hover img {
     filter: sepia(0);
     transform: scale(1.25);
     border-radius: 50%;
-    //box-shadow: 0 10px 6px -6px grey;
 }
 
 .heading {
@@ -160,7 +149,6 @@ table.Marks {
 }
 
 .Border {
-
     border: thin solid;
     border-radius: 10px;
     padding-left: 30px;
@@ -181,12 +169,12 @@ li {
     padding-right: 30px;
 }
 
-#places{
+#places {
     margin: 20px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
-#places td{
+#places td {
     border-bottom: thin solid white;
     padding: 5px;
 }
