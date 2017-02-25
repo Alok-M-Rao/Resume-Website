@@ -1,0 +1,191 @@
+body {
+    background-image: url('../ananthu/21.jpg');
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navDiv {
+    margin-bottom: 10px;
+}
+
+#Nav {
+    width: 1300px;
+    margin: 0 auto;
+    position: fixed;
+    border-collapse: collapse;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px 4px 4px 4px;
+    margin: 0 5px 0 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+th:hover {
+    background-color: black;
+}
+
+th {
+    transition: background-color 0.5s;
+    color: 0.5s;
+    height: 40px;
+}
+
+.Info {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.Info  h2{
+    font-weight: lighter;
+    padding-left: 20px;
+    color: #e8643b;
+}
+
+#Photo {
+    padding: 40px;
+    height: 450px;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('akshay2.jpg');
+    border: thin solid #e8643b;
+    
+
+}
+
+.About {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.Education {
+    margin-top: 60px;
+    font-size: 30px;
+    
+}
+
+.Education li{
+    padding: 0;
+}
+
+.Project {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.Project ul{
+    display: inline;
+    list-style: none;
+}
+
+.Skill {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.Skill ul{
+    padding: 20px;
+    border-bottom: solid thin white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+figure img {
+    transition: all 0.7s ease;
+    transform: scale(1);
+    filter: sepia(70%);
+    transition: .5s ease-in-out;
+}
+
+figure:hover img {
+    filter: sepia(0);
+    transform: scale(1.25);
+    border-radius: 50%;
+    //box-shadow: 0 10px 6px -6px grey;
+}
+
+.heading {
+    display: none;
+}
+
+#box:hover #heading {
+    display: block;
+}
+
+footer {
+    background-blend-mode: darken;
+    padding-top: 50px
+}
+
+.Footer {
+    align-content: center;
+    text-align: center;
+}
+
+.Footer1:hover #Info {
+    background-color: transparent;
+}
+
+table.Marks {
+    background-color: transparent;
+    color: white;
+    opacity: 1;
+}
+
+.Border {
+
+    border: thin solid;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.PDF {
+    margin-top: 60px;
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+}
+
+li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#places{
+    margin: 20px;
+    background-color: rgba(0,0,0,0);
+}
+
+#places td{
+    border-bottom: thin solid white;
+    padding: 5px;
+}
